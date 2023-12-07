@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Form</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <hr>
+    <form>
+        <h2>Name:</h2>
+FirstName:<input type="text"  placeholder="Enter Name" id="name1"><br><br>
+LastName:<input type="text"  placeholder="Enter Name" id="name2"><br><br>
+
+<h2>Gender:</h2>
+<input type="radio" name="radio"  id="male" value="Male"><label for="male">Male</label><br><br>
+<input type="radio" name="radio" id="female" value="Female" ><label for="female">Female</label><br><br>
+<input type="radio" name="radio" id="other" value="Others"><label for="other">Others</label>
+<h2>Language:</h2>
+<input type="checkbox" name="html"  id="check1" value="Html"><label for="check1">HTML</label><br><br>
+<input type="checkbox" name="css"  id="check2" value="Css" ><label for="check2">CSS</label><br><br>
+<input type="checkbox" name="js"  id="check3" value="Java  script"><label for="check3">JAVA SCRIPT</label>
+<h2>Class Type:</h2>
+<select id="type" name="list" onchange="getSelectData()">
+    <option value="online">Online</option>
+    <option value="offline">Offline</option>
+</select>
+<h2>Details:</h2>
+<textarea name="text" id="text1" placeholder="textarea" rows="5" cols="60">
+    Student registration forms are used to register students for classes, tutoring, extracurricular activities, and various school organizations. Whether you’re K-12 or higher education, your school can keep better track of students using our free Student Registration Forms. Students can provide their personal information, upload files, and even submit payments online. Submissions will be sent to your Jotform account, and can then be sent to faculty and student leaders.
+</textarea>
+</form>
+<button id="btn1">submit</button>
+<p id="details"> </p>
+<script src="script.js"></script>
+</body>
+</html>
