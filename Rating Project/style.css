@@ -1,0 +1,26 @@
+
+body{
+    background-color: skyblue;
+}
+.star{
+    background-color:brown;
+    width:290px;
+    margin-left: 39%;
+    margin-top: 150px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align:center;
+}
+.rating{
+    border:none;
+    font-size:50px;
+    color:gold;
+    background-color:unset;
+}
+P{
+    font-size:25px;
+    text-align:center;
+}
