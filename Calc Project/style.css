@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color: darkgreen;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#calc{
+    margin-top: 100px;
+    height: 280px;
+    width: 300px;
+    padding: 20px;
+    left: 38%;
+    position: absolute;
+    border-radius: 30px;
+    background-color:sandybrown
+}
+#num1,#num2{
+    padding: 10px;
+}
+#calc2{
+    margin-top: 30px;
+}
+#btn1{
+    background: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 30px;
+    cursor: pointer;
+}
+#btn2{
+    background: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 30px;
+    cursor: pointer;
+}
+
+#btn3{
+    background: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 30px;
+    cursor: pointer;
+}
+
+#btn4{
+    background: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 30px;
+    cursor: pointer;
+}
